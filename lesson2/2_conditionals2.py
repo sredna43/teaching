@@ -4,7 +4,7 @@
 # Let's say you want to run some piece of code, but you only want to run it if some condition is met.
 
 # Here's a quick example:
-def weather_checker(weather)
+def weather_checker(weather):
     good_weather = ["sunny", "partly cloudy", "calm"]
 
     if weather in good_weather:
@@ -50,3 +50,14 @@ if x == 5:
         print("math is broken")
 else:
     print("what is life")
+
+# Exercise: There's a theory in mathematics called "Fermat's Last Theorem" (some fun history about the name)
+# Basically, it goes like this (^ means exponent): There are no positive integers a, b, and c such that a^n + b^n = c^n
+# for any values of n greater than 2. For example, 2^3 + 3^3 != 2^3
+
+# Your task, is to write a program that takes in a,b,c and n as arguments and check if a^n+b^n=c^n.
+
+print(3**2 == 9) # True, ** is how you do exponents in python
+
+def check_fermat(a, b, c, n):
+    pass # Your code goes here
