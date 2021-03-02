@@ -17,11 +17,22 @@ print(f(5))
 
 # Recursive functions need to have what's called a 'base case'. This is simply the case where the function no longer recurses (x == 0 in our example).
 
-# Challenge: create a function that takes an integer n as an argument and recursively prints out the first n digits of the fibonacci sequence.
+# Challenge 1: create a function that takes an integer n as an argument and recursively prints out the first n digits of the fibonacci sequence.
 
 # hint: The Fibonacci sequence is formally defined by F(n) = F(n-1) + F(n-2), F(0) = 1, F(1) = 1
 
-def print_fib(n):
+def fib(n):
     pass
 
-print_fib(8) # 1, 1, 2, 3, 5, 8, 13, 21
+x = fib(8) # 1, 1, 2, 3, 5, 8, 13, 21
+print(x)
+
+
+# Challenge 2: create a function that takes in an integer n as an argument and returns n factorial.
+# hint: Factorial numbers are defined as such: n! = n * (n-1) * (n-2) * ... * 1
+
+def factorial(n):
+    pass
+
+x = factorial(9) # 362880
+print(x)
