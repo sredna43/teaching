@@ -36,3 +36,8 @@ def factorial(n):
 
 x = factorial(9) # 362880
 print(x)
+
+
+
+# bonus: fix your function so that the following call won't break anything.
+print(factorial(4.5))

@@ -1,4 +1,6 @@
 # As you've seen and done, functions can be made to return values. This is super useful.
+# We've also seen how the return values from functions can be passed as arguments into other functions.
+# Here's a quick deep dive into that.
 
 import math
 
@@ -6,13 +8,14 @@ def f(x):
     return x ** x
 
 def g(x):
-    return x + 10
+    return x + 11
 
 def h(x):
     return math.sqrt(x)
 
 print(f(g(5))) # what will this print?
 print(f(h(5))) # how about this?
+print(f(g(h(5)))) # last but not least, this????
 
 
 # If this feels like a throwback to algebra or calculus, that's a good thing.
