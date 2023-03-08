@@ -1,4 +1,5 @@
 # teaching
-Just teaching my gf how to code!
+
+Just teaching my fiancee how to code!
 
 ## There may well only ever be one lesson that lives here :)
